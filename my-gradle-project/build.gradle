@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'org.sonarqube' version '3.3'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-core:5.3.10'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "my-gradle-project"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.login", "your_sonarqube_token"
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
