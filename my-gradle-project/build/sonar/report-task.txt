@@ -1,0 +1,7 @@
+organization=colin-sonarsource
+projectKey=colin-sonarsource_gradleproject
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.58720
+dashboardUrl=https://sonarcloud.io/dashboard?id=colin-sonarsource_gradleproject
+ceTaskId=AZPe1-NlxN4KNrhrUFWM
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZPe1-NlxN4KNrhrUFWM

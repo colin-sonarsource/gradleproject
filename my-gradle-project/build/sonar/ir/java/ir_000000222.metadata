@@ -1,0 +1,5 @@
+App#main([Ljava/lang/String;)V
+false
+7832c16aff34db13ae48bf1de0578c41
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
